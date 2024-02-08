@@ -2,8 +2,31 @@ import React from "react";
 import ServiceCard from "../components/ServiceCard";
 
 export default function Services() {
+  const data = [
+    {
+      icon: "./icons/design.svg",
+      title: "Web Design",
+      des: "Some text here Lorem ipsum dolor sit amet consectetur adipisicing Some text here Lorem ipsum dolor sit amet consectetur adipisicing",
+    },
+    {
+      icon: "./icons/develop.svg",
+      title: "Web Development",
+      des: "Some text here Lorem ipsum dolor sit amet consectetur adipisicing Some text here Lorem ipsum dolor sit amet consectetur adipisicing",
+    },
+    {
+      icon: "./icons/security.svg",
+      title: "Security Development",
+      des: "Some text here Lorem ipsum dolor sit amet consectetur adipisicing Some text here Lorem ipsum dolor sit amet consectetur adipisicing",
+    },
+    {
+      icon: "./icons/backend.svg",
+      title: "Backend Development",
+      des: "Some text here Lorem ipsum dolor sit amet consectetur adipisicing Some text here Lorem ipsum dolor sit amet consectetur adipisicing",
+    },
+  ];
+
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center">
+    <section className="flex flex-col selg:flex-row justify-between items-center">
       <div className="w-full px-8 py-4">
         <h1 className="py-4">Title here!</h1>
         <p className="py-8">
@@ -15,11 +38,17 @@ export default function Services() {
           Hello world
         </button>
       </div>
-      <div className="grid md:grid-cols-2 w-full px-8">
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+      <div className="grid grid-cols-1 sexm:grid-cols-2 sesm:grid-cols-3 semd:grid-cols-4 selg:grid-cols-2 w-full px-8 py-16 gap-2">
+        {data.map((vals) => {
+          return (
+            <div
+              key={vals.title}
+              className="flex flex-col justify-center items-center"
+            >
+              <ServiceCard {...vals} />
+            </div>
+          );
+        })}
       </div>
     </section>
   );
