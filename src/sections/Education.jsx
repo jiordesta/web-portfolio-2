@@ -22,7 +22,7 @@ export default function Education() {
   ];
 
   return (
-    <section className="bg-[#222831] text-[#00ADB5] px-16 pb-8">
+    <section className="bg-[#393E46] text-[#EEEEEE] px-16 pt-8 pb-8">
       <div className="flex flex-wrap edlg:flex-row justify-center items-center">
         <p className="flex items-center text-start edlg:w-1/4 edmd:pb-0 pb-4">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
