@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col md:flex-row justify-between lg:h-screen bg-[#222831] text-[#00ADB5] px-16 py-8 lg:py-0">
+    <section className="flex flex-col md:flex-row justify-between lg:h-screen bg-[#222831] text-[#00ADB5] px-8 md:px-16 xl:px-64 py-8 lg:py-0">
       <div className="flex flex-col justify-center items-start w-full">
         <div className="pb-4">
           <h1 className="text-4xl lg:text-6xl font font-semibold">

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function Header() {
   const [toggle, setToggle] = useState(false);
   return (
-    <section className="px-16 py-8 bg-[#222831] sticky top-0 z-40 text-[#00ADB5] shadow-gray-950">
+    <section className="px-8 md:px-16 xl:px-64 py-6 lg:py-8 bg-[#222831] sticky top-0 z-40 text-[#00ADB5] drop-shadow-lg md:drop-shadow-none">
       <div className="flex flex-row">
         <div className="w-full flex flex-row justify-center items-center">
           <div className="w-full">
