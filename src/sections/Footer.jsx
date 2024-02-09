@@ -4,6 +4,7 @@ export default function Footer() {
   return (
     <section className="flex flex-col lg:flex-row px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-16 lg:py-32 gap-8 drop-shadow-lg">
       <div className="w-full flex flex-col gap-10">
+        <div className="py-1 bg-[#00ADB5]" />
         <h1 className="text-4xl">Thank you for your time</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium

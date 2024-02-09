@@ -9,25 +9,33 @@ export default function Contact() {
       <div className="flex flex-col lg:flex-row gap-2">
         <div className="w-full flex flex-col justify-start items-start">
           <h1 className="text-4xl font-bold pb-4">Contacts</h1>
-          <div className="flex flex-col gap-4 py-8 lg:py-16 items-start">
+          <div className="flex flex-col gap-4 py-8 lg:py-16 items-start w-full">
             <span className="flex flex-row justify-center items-center gap-2">
               <img src="/icons/phone.svg" width={50} alt="" />
-              <h1 className="text-2xl">+639123456789</h1>
+              <h1 className="text-[16px] md:text-xl lg:text-2xl overflow-hidden">
+                +639123456789
+              </h1>
             </span>
             <span className="flex flex-row justify-center items-center gap-2">
               <img src="/icons/email.svg" width={50} alt="" />
-              <h1 className="text-2xl">jiordesta@gmail.com</h1>
+              <h1 className="text-[16px] md:text-xl lg:text-2xl overflow-hidden">
+                jiordesta@gmail.com
+              </h1>
             </span>
             <span className="flex flex-row justify-center items-center gap-2">
               <img src="/icons/linkedin.svg" width={50} alt="" />
-              <h1 className="text-2xl">john-irson-ordesta-130014297/</h1>
+              <h1 className="text-[16px] md:text-xl lg:text-2xl overflow-hidden">
+                john-irson-ordesta-130014297/
+              </h1>
             </span>
             <span className="flex flex-row justify-center items-center gap-2">
               <img src="/icons/messenger.svg" width={50} alt="" />
-              <h1 className="text-2xl">@jiordesta</h1>
+              <h1 className="text-[16px] md:text-xl lg:text-2xl overflow-hidden">
+                @jiordesta
+              </h1>
             </span>
           </div>
-          <ul className="flex flex-row gap-4">
+          <ul className="flex flex-wrap lg:flex-row gap-4">
             <img src="/icons/github.svg" width={50} alt="" />
             <img src="/icons/facebook.svg" width={50} alt="" />
             <img src="/icons/instagram.svg" width={50} alt="" />
@@ -37,6 +45,7 @@ export default function Contact() {
           </ul>
         </div>
         <div className="w-full flex flex-col gap-4 pt-8 lg:pt-0">
+          <div className="py-1 bg-[#00ADB5]" />
           <input
             type="text"
             placeholder="Your name"

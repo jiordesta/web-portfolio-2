@@ -9,14 +9,19 @@ export default function Services() {
       <div className="flex flex-col sklg:flex-row gap-8">
         <div className="w-full flex flex-row lg:justify-center lg:items-center">
           <div className="w-full md:w-1/2 sklg:w-[60%] flex flex-col gap-8">
-            <h1 className="text-5xl font-semibold">Freelance Services</h1>
+            <div className="flex flex-col">
+              <div className="py-1 bg-[#00ADB5]" />
+              <h1 className="text-4xl lg:text-5xl font-semibold">
+                Freelance Services
+              </h1>
+            </div>
             <p>
               Some text here Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Quisquam aut amet nisi illo facilis dolorem quas sunt
               tenetur dolore quo culpa tempora accusantium, nostrum
               voluptatibus!
             </p>
-            <button className="rounded-lg px-6 py-2 w-1/2 bg-[#222831] hover:bg-[#393E46] hover:text-white transition-colors ease-in-out duration-500 drop-shadow-lg">
+            <button className="rounded-lg px-6 py-2 w-[60%] bg-[#222831] hover:bg-[#393E46] hover:text-white transition-colors ease-in-out duration-500 drop-shadow-lg">
               Contact me!
             </button>
           </div>

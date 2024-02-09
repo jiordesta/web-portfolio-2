@@ -27,7 +27,10 @@ export default function Education() {
     >
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col gap-4 w-full pb-4">
-          <h1 className="text-4xl font-bold">Academics</h1>
+          <div className="flex flex-col">
+            <div className="py-1 bg-[#00ADB5] hidden lg:flex" />
+            <h1 className="text-4xl font-bold">Academics</h1>
+          </div>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
             delectus a soluta sit praesentium optio doloribus error, harum

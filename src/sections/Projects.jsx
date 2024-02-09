@@ -37,7 +37,10 @@ export default function Projects() {
       className="flex flex-col px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-8 gap-8 lg:gap-16"
     >
       <div className="w-full">
-        <h1 className="text-4xl font-bold pb-4">Sample Projects</h1>
+        <div className="flex flex-col">
+          <div className="py-1 bg-[#00ADB5]" />
+          <h1 className="text-4xl font-bold pb-4">Sample Projects</h1>
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
           totam suscipit. Laborum, expedita! Ipsum saepe praesentium rerum

@@ -56,3 +56,18 @@
         @apply underline;
     }
 }
+
+@keyframes appear-left {
+    0%{
+        transform: translateX(-250px);
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+}
+
+.animate-left {
+    animation: appear-left 2s ease-in-out 500;
+}

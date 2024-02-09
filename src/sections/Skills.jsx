@@ -5,7 +5,10 @@ export default function Skills() {
     <section id="skills" className="px-8 md:px-16 xl:px-64 py-8 bg-[#222831]">
       <div className="flex flex-col justify-center items-center text-[#00ADB5]">
         <div className="flex flex-col w-full py-8 gap-4">
-          <h1 className="text-4xl font-bold">Skills</h1>
+          <div className="flex flex-col">
+            <div className="py-1 bg-[#00ADB5]" />
+            <h1 className="text-4xl font-bold">Skills</h1>
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae
             officiis architecto eaque! Nulla omnis fugit totam harum consectetur
