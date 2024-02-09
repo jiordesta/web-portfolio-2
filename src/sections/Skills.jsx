@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <section className="px-8 md:px-16 xl:px-64 py-8 bg-[#222831]">
+    <section id="skills" className="px-8 md:px-16 xl:px-64 py-8 bg-[#222831]">
       <div className="flex flex-col justify-center items-center text-[#00ADB5]">
         <div className="flex flex-col w-full py-8 gap-4">
           <h1 className="text-4xl font-bold">Skills</h1>
@@ -21,7 +21,7 @@ export default function Skills() {
             reiciendis saepe
           </p>
         </div>
-        <div className="w-full flex flex-wrap gap-8 pt-4 skill px-4 lg:px-8">
+        <div className="w-full flex flex-wrap gap-16 pt-4 skill px-4 lg:px-8">
           <div className="flex flex-col gap-2 w-full drop-shadow-lg">
             <h1 className="text-3xl font-semibold">Technical Skills</h1>
             <div className="flex flex-wrap gap-4 ">

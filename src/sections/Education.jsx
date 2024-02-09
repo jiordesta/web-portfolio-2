@@ -21,7 +21,10 @@ export default function Education() {
   ];
 
   return (
-    <section className="bg-[#222831] text-[#00ADB5] px-8 md:px-16 xl:px-64 pt-8 xm:pt-0 pb-8">
+    <section
+      id="academics"
+      className="bg-[#222831] text-[#00ADB5] px-8 md:px-16 xl:px-64 pt-8 xm:pt-0 pb-8"
+    >
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col gap-4 w-full pb-4">
           <h1 className="text-4xl font-bold">Academics</h1>

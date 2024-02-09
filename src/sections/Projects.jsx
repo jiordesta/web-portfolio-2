@@ -32,7 +32,10 @@ export default function Projects() {
   };
 
   return (
-    <section className="flex flex-col px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-8 gap-8 lg:gap-16">
+    <section
+      id="projects"
+      className="flex flex-col px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-8 gap-8 lg:gap-16"
+    >
       <div className="w-full">
         <h1 className="text-4xl font-bold pb-4">Sample Projects</h1>
         <p>

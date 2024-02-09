@@ -39,7 +39,7 @@
     }
 
     .nav-list li{
-        @apply cursor-pointer hover:underline hover:text-white;
+        @apply cursor-pointer hover:text-white;
     }
 
     .skill-list li{
@@ -51,5 +51,8 @@
 
     .service li{
         @apply font-semibold p-2 lg:p-4 bg-[#222831] rounded-lg drop-shadow-lg;
+    }
+    .navlink.active{
+        @apply underline;
     }
 }

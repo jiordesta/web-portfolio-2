@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section className="px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-8 lg:py-32">
+    <section
+      id="contact"
+      className="px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-8 lg:py-32"
+    >
       <div className="flex flex-col lg:flex-row gap-2">
         <div className="w-full flex flex-col justify-start items-start">
           <h1 className="text-4xl font-bold pb-4">Contacts</h1>
