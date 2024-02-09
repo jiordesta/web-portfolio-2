@@ -3,7 +3,7 @@ import React from "react";
 export default function Projects() {
   const ProjectFolder = ({ title, stack }) => {
     return (
-      <div className="border-2 border-[#00ADB5] rounded-lg border-dotted min-h-[150px]">
+      <div className="border-2 border-[#00ADB5] rounded-lg border-dotted min-h-[150px] hover:cursor-pointer hover:border-white">
         <div className="flex justify-end">
           <div className="w-[50%] p-2 text-center">
             <h1 className="">Tech Stack</h1>
@@ -16,7 +16,10 @@ export default function Projects() {
           <ul className="w-full md:w-[60%] flex flex-wrap justify-start items-center gap-2 p-2">
             {stack.map((val) => {
               return (
-                <li key={val} className="p-[8px] bg-[#393E46] rounded-lg">
+                <li
+                  key={val}
+                  className="p-[8px] bg-[#222831] rounded-lg drop-shadow-lg"
+                >
                   {val}
                 </li>
               );
@@ -31,7 +34,7 @@ export default function Projects() {
   return (
     <section className="flex flex-col px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-8 gap-8 lg:gap-16">
       <div className="w-full">
-        <h1 className="text-3xl font-semibold pb-4">Sample Projects</h1>
+        <h1 className="text-4xl font-bold pb-4">Sample Projects</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
           totam suscipit. Laborum, expedita! Ipsum saepe praesentium rerum
@@ -42,6 +45,42 @@ export default function Projects() {
       </div>
       <div className="w-full flex flex-wrap justify-center items-center gap-8">
         <ul className="flex flex-wrap gap-2 justify-center items-center">
+          <li>
+            <ProjectFolder
+              title="todo-list-web-app"
+              stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
+            />
+          </li>
+          <li>
+            <ProjectFolder
+              title="todo-list-web-app"
+              stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
+            />
+          </li>
+          <li>
+            <ProjectFolder
+              title="todo-list-web-app"
+              stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
+            />
+          </li>
+          <li>
+            <ProjectFolder
+              title="todo-list-web-app"
+              stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
+            />
+          </li>
+          <li>
+            <ProjectFolder
+              title="todo-list-web-app"
+              stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
+            />
+          </li>
+          <li>
+            <ProjectFolder
+              title="todo-list-web-app"
+              stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
+            />
+          </li>
           <li>
             <ProjectFolder
               title="todo-list-web-app"

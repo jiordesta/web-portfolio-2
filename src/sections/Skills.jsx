@@ -5,7 +5,7 @@ export default function Skills() {
     <section className="px-8 md:px-16 xl:px-64 py-8 bg-[#222831]">
       <div className="flex flex-col justify-center items-center text-[#00ADB5]">
         <div className="flex flex-col w-full py-8 gap-4">
-          <h1 className="text-3xl font-semibold">Skills</h1>
+          <h1 className="text-4xl font-bold">Skills</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae
             officiis architecto eaque! Nulla omnis fugit totam harum consectetur
@@ -21,11 +21,11 @@ export default function Skills() {
             reiciendis saepe
           </p>
         </div>
-        <div className="w-full flex flex-wrap gap-8 pt-4 skill">
-          <div className="flex flex-col gap-2 w-full lg:justify-center lg:items-center drop-shadow-lg">
-            <h1 className="text-2xl px-2 font-semibold">Technical Skills</h1>
+        <div className="w-full flex flex-wrap gap-8 pt-4 skill px-4 lg:px-8">
+          <div className="flex flex-col gap-2 w-full drop-shadow-lg">
+            <h1 className="text-3xl font-semibold">Technical Skills</h1>
             <div className="flex flex-wrap gap-4 ">
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Web Development</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">MongoDb</div>
@@ -42,21 +42,21 @@ export default function Skills() {
                   <div className="underline">JavaScript</div>
                 </div>
               </div>
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Web Design</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">Figma</div>
                   <div className="underline">Draw.io</div>
                 </div>
               </div>
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Version Control</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">Git</div>
                   <div className="underline">Gitlab</div>
                 </div>
               </div>
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Programming Languages</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">C</div>
@@ -68,18 +68,10 @@ export default function Skills() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 w-full lg:justify-center lg:items-center  drop-shadow-lg">
-            <h1 className="text-2xl px-2 font-semibold">Soft Skills</h1>
+          <div className="flex flex-col gap-2 w-full  drop-shadow-lg">
+            <h1 className="text-3xl font-semibold">Soft Skills</h1>
             <div className="flex flex-wrap gap-4">
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
-                <h1 className="mb-2 text-[18px]">Communication</h1>
-                <div className="flex flex-wrap gap-4">
-                  <div className="underline">Verbal</div>
-                  <div className="underline">Writter</div>
-                  <div className="underline">Presentation</div>
-                </div>
-              </div>
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Interpersonal</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">Teamwork</div>
@@ -90,13 +82,21 @@ export default function Skills() {
                   <div className="underline">Leadership</div>
                 </div>
               </div>
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
+                <h1 className="mb-2 text-[18px]">Communication</h1>
+                <div className="flex flex-wrap gap-4">
+                  <div className="underline">Verbal</div>
+                  <div className="underline">Writter</div>
+                  <div className="underline">Presentation</div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 w-full lg:justify-center lg:items-center drop-shadow-lg">
-            <h1 className="text-2xl px-2 font-semibold">Other Skills</h1>
+          <div className="flex flex-col gap-2 w-full drop-shadow-lg">
+            <h1 className="text-3xl font-semibold">Other Skills</h1>
             <div className="flex flex-wrap gap-4">
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Game Development</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">Pygame</div>
@@ -104,7 +104,7 @@ export default function Skills() {
                 </div>
               </div>
 
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Arts</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">Photoshop</div>
@@ -114,7 +114,7 @@ export default function Skills() {
                 </div>
               </div>
 
-              <div className="bg-[#393E46] p-2 rounded-lg flex flex-col max-w-[300px] hover:-translate-y-1 transition-transform ease-in-out duration-300">
+              <div className="bg-[#222831] p-2 rounded-lg flex flex-col max-w-[300px]">
                 <h1 className="mb-2 text-[18px]">Robotics</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">Machine Learning</div>

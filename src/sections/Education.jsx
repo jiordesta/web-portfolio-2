@@ -1,6 +1,5 @@
 import React from "react";
 import EducationCard from "../components/EducationCard";
-import Test from "../components/Test";
 
 export default function Education() {
   const data = [
@@ -25,7 +24,7 @@ export default function Education() {
     <section className="bg-[#222831] text-[#00ADB5] px-8 md:px-16 xl:px-64 pt-8 xm:pt-0 pb-8">
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col gap-4 w-full pb-4">
-          <h1 className="text-3xl font-semibold">Academics</h1>
+          <h1 className="text-4xl font-bold">Academics</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
             delectus a soluta sit praesentium optio doloribus error, harum
@@ -43,7 +42,7 @@ export default function Education() {
           {data.map((vals) => {
             return (
               <div className="w-[350px]" key={vals.title}>
-                <Test {...vals} />
+                <EducationCard {...vals} />
               </div>
             );
           })}
