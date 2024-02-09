@@ -10,18 +10,18 @@ export default function Skills() {
             <h1 className="text-4xl font-bold">Skills</h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae
-            officiis architecto eaque! Nulla omnis fugit totam harum consectetur
-            amet dolores eum adipisci veniam quos! Lorem ipsum dolor, sit amet
-            consectetur adipisicing elit. Aliquam, sint. Repellendus maxime
-            dolorum ratione omnis quae harum, accusamus impedit iusto aliquam?
-            Culpa, odit. Placeat, commodi? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Vitae nobis sint eius magnam. Quo
-            molestias perferendis incidunt autem est? Suscipit, neque fugit quae
-            saepe vel cumque. Culpa tempore ullam sequi Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit. Alias eius repellat rem esse
-            suscipit autem tempora magni, velit est. Laborum quaerat earum
-            reiciendis saepe
+            Over the course of my professional journey, I have diligently
+            cultivated a multifaceted skill set, equipping myself with a diverse
+            array of capabilities that not only enable me to adeptly navigate
+            but also excel in a broad spectrum of technological landscapes.
+            Through continuous learning, hands-on experiences, and a commitment
+            to staying abreast of the latest industry trends, I have honed my
+            abilities to tackle complex challenges and contribute meaningfully
+            to diverse technological domains. This ongoing process of skill
+            development not only reflects my adaptability but also underscores
+            my dedication to remaining at the forefront of innovation and
+            emerging technologies, positioning me as a versatile and dynamic
+            professional in the ever-evolving technological landscape.
           </p>
         </div>
         <div className="w-full flex flex-wrap gap-16 pt-4 skill px-4 lg:px-8">

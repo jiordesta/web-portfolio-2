@@ -6,17 +6,17 @@ export default function Education() {
     {
       img: "/images/leader.jpg",
       title: "Exceptional Leader",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, a!",
+      des: "Led and guided a dedicated thesis team to successful completion, demonstrating exceptional leadership skills and fostering a collaborative environment that propelled us toward our research objectives.",
     },
     {
       img: "/images/award.jpg",
       title: "Best Oral Presenter Award",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi saepe natus consectetur quam eligendi earum molestias expedita dolore labore officia.",
+      des: "Honored with the Best Oral Presenter award at the 2nd International Conference of Computing and Information Sciences (CIScon) 2023, this accomplishment showcases my strong presentation skills and dedication to impactful communication in the field.",
     },
     {
       img: "/images/internship.jpg",
       title: "Excellent Intern",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptate veniam recusandae. Rerum dolorem praesentium necessitatibus, sit repudiandae ipsum facilis tenetur molestiae, ea libero voluptatem soluta. Officiis mollitia ab itaque?",
+      des: "Recognized for exemplary performance as an intern, consistently exceeding expectations and contributing significantly to team projects. Demonstrated a strong work ethic, adaptability, and a quick grasp of complex tasks, resulting in valuable contributions to the organization’s objectives.",
     },
   ];
 
@@ -29,19 +29,21 @@ export default function Education() {
         <div className="flex flex-col gap-4 w-full pb-4">
           <div className="flex flex-col">
             <div className="py-1 bg-[#00ADB5] hidden lg:flex" />
-            <h1 className="text-4xl font-bold">Academics</h1>
+            <h1 className="text-4xl font-bold">Education</h1>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
-            delectus a soluta sit praesentium optio doloribus error, harum
-            consectetur! Dicta! Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Debitis, nam ea. Unde omnis error odio impedit
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
-            commodi porro neque totam asperiores consequuntur quis consequatur
-            sit quisquam unde quos, praesentium laborum quia odio? Lorem ipsum
-            dolor, sit amet consectetur adipisicing elit. Excepturi commodi
-            porro neque totam asperiores consequuntur quis consequatur sit
-            quisquam unde quos, praesentium laborum quia odio?
+            I hold a degree in Computer Science, underscoring a comprehensive
+            understanding of fundamental concepts within the field. Throughout
+            my academic journey, I showcased leadership skills, notably
+            receiving recognition for exceptional leadership. I also earned the
+            Best Oral Presentation Award, a testament to my effective
+            communication and presentation abilities. Additionally, my
+            exceptional performance during an internship further demonstrated my
+            practical application of knowledge, resulting in commendation for
+            outstanding contributions. This academic background, coupled with
+            real-world experience, positions me as a well-rounded professional
+            prepared for challenges and continued growth in the ever-evolving
+            landscape of Computer Science.
           </p>
         </div>
         <div className="flex flex-wrap justify-center w-full gap-2 pt-8 edlg:pt-0 ">

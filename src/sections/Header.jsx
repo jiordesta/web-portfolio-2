@@ -55,7 +55,7 @@ export default function Header() {
                 className="navlink"
                 onClick={() => navigate({ target: "academics", id: "1" })}
               >
-                Academics
+                Education
               </li>
               <li
                 id="2"
@@ -65,18 +65,18 @@ export default function Header() {
                 Skills
               </li>
               <li
-                id="3"
-                className="navlink"
-                onClick={() => navigate({ target: "services", id: "3" })}
-              >
-                Services
-              </li>
-              <li
                 id="4"
                 className="navlink"
                 onClick={() => navigate({ target: "projects", id: "4" })}
               >
                 Projects
+              </li>
+              <li
+                id="3"
+                className="navlink"
+                onClick={() => navigate({ target: "services", id: "3" })}
+              >
+                Services
               </li>
               <li
                 id="5"
@@ -107,16 +107,16 @@ export default function Header() {
         <ul className="flex flex-col justify-end items-end gap-2 nav-list">
           <li onClick={() => navigate({ target: "about", id: "0" })}>About</li>
           <li onClick={() => navigate({ target: "academics", id: "1" })}>
-            Academics
+            Education
           </li>
           <li onClick={() => navigate({ target: "skills", id: "2" })}>
             Skills
           </li>
-          <li onClick={() => navigate({ target: "services", id: "3" })}>
-            Services
-          </li>
           <li onClick={() => navigate({ target: "projects", id: "4" })}>
             Projects
+          </li>
+          <li onClick={() => navigate({ target: "services", id: "3" })}>
+            Services
           </li>
           <li onClick={() => navigate({ target: "contact", id: "5" })}>
             Contact

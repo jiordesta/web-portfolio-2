@@ -16,10 +16,12 @@ export default function Services() {
               </h1>
             </div>
             <p>
-              Some text here Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Quisquam aut amet nisi illo facilis dolorem quas sunt
-              tenetur dolore quo culpa tempora accusantium, nostrum
-              voluptatibus!
+              I offer freelance services specializing in web development, web
+              design, security development, and both backend and frontend
+              development. With expertise in full-stack development, I bring a
+              comprehensive skill set to deliver tailored solutions that meet
+              your project requirements. Let's collaborate to bring your vision
+              to life.
             </p>
             <button className="rounded-lg px-6 py-2 w-[60%] bg-[#222831] hover:bg-[#393E46] hover:text-white transition-colors ease-in-out duration-500 drop-shadow-lg">
               Contact me!
