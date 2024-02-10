@@ -4,9 +4,9 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] py-8 lg:py-16"
+      className="px-8 md:px-16 xl:px-64 bg-[#222831] text-[#00ADB5] pb-16"
     >
-      <div className="flex flex-col lg:flex-row gap-2">
+      <div className="flex flex-col lg:flex-row gap-2 exit-element-lg">
         <div className="w-full flex flex-col justify-start items-start">
           <h1 className="text-4xl font-bold pb-4">Contacts</h1>
           <div className="flex flex-col gap-4 py-8 lg:py-16 items-start w-full">

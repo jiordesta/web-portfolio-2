@@ -55,19 +55,30 @@
     .navlink.active{
         @apply underline;
     }
-}
 
-@keyframes appear-left {
-    0%{
-        transform: translateX(-250px);
-        transform: translateY(-150px);
-    }
-    100%{
-        transform: translateX(0px);
-        transform: translateY(0px);
+    .navlink.superactive{
+        @apply font-semibold text-white;
     }
 }
 
-.animate-left {
-    animation: appear-left 2s ease-in-out 500;
+@keyframes animation-exit {
+    to {opacity: 0; transform: translateY(500px); color: black;}
+}
+.exit-element-lg {
+    transform: translateY(0px);
+    animation: animation-exit linear;
+    animation-timeline: view();
+    animation-range: exit 250px;
+}
+.exit-element-md {
+    transform: translateY(0px);
+    animation: animation-exit linear;
+    animation-timeline: view();
+    animation-range: exit 200px;
+}
+.exit-element-sm {
+    transform: translateY(0px);
+    animation: animation-exit linear;
+    animation-timeline: view();
+    animation-range: exit 100px;
 }

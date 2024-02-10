@@ -6,7 +6,7 @@ export default function Services() {
       id="services"
       className="flex justify-center items-center bg-[#222831] text-[#00ADB5] px-8 md:px-16 xl:px-64 py-16 lg:py-32"
     >
-      <div className="flex flex-col sklg:flex-row gap-8">
+      <div className="flex flex-col sklg:flex-row gap-8 exit-element-sm">
         <div className="w-full flex flex-row lg:justify-center lg:items-center">
           <div className="w-full md:w-1/2 sklg:w-[60%] flex flex-col gap-8">
             <div className="flex flex-col">

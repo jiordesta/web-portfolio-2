@@ -10,14 +10,6 @@ export default function Header() {
     const y = window.scrollY;
     const offset = document.getElementById("header").scrollHeight;
 
-    const currentElement = document.getElementById(id);
-    const prevElement = document.getElementById(prev);
-
-    prevElement.classList.toggle("active");
-    currentElement.classList.toggle("active");
-
-    setPrev(id);
-
     window.scrollTo({
       top: y + top - offset,
       behavior: "smooth",
@@ -67,14 +59,14 @@ export default function Header() {
               <li
                 id="4"
                 className="navlink"
-                onClick={() => navigate({ target: "projects", id: "4" })}
+                onClick={() => navigate({ target: "projects", id: "3" })}
               >
                 Projects
               </li>
               <li
                 id="3"
                 className="navlink"
-                onClick={() => navigate({ target: "services", id: "3" })}
+                onClick={() => navigate({ target: "services", id: "4" })}
               >
                 Services
               </li>
