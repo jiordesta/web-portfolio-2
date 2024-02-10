@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row justify-between lg:h-screen exit-element-lg">
         <div className="flex flex-col justify-center items-start w-full">
           <div>
-            <h1 className="text-5xl helg:text-6xl font font-bold">
+            <h1 className="text-4xl helg:text-6xl font font-bold">
               John Irson O.
             </h1>
             <h1 className="text-xl hexl:text-2xl pb-1 font-semibold">
