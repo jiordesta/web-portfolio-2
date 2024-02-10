@@ -89,7 +89,7 @@ export default function Skills() {
                 <h1 className="mb-2 text-[18px]">Communication</h1>
                 <div className="flex flex-wrap gap-4">
                   <div className="underline">Verbal</div>
-                  <div className="underline">Writter</div>
+                  <div className="underline">Written</div>
                   <div className="underline">Presentation</div>
                 </div>
               </div>
