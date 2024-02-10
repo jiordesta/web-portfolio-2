@@ -24,6 +24,9 @@ export default function Hero() {
             eager to contribute my skills and enthusiasm to a dynamic and
             growth-oriented organization.
           </p>
+          <span className="bg-[#222831] drop-shadow-lg p-2 rounded-lg mt-4 cursor-pointer hover:bg-[#393E46]">
+            download resume
+          </span>
         </div>
         <div className="flex justify-center items-center w-full object-cover overflow-hidden md:ps-[50px] lg:ps-[200px] pt-8 md:pt-0 drop-shadow-md">
           <img
