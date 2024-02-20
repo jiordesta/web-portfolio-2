@@ -1,9 +1,14 @@
 import React from "react";
 
 export default function Projects() {
-  const ProjectFolder = ({ title, stack }) => {
+  const ProjectFolder = ({ title, stack, link }) => {
     return (
-      <div className="border-2 border-[#00ADB5] rounded-lg border-dotted min-h-[150px] hover:cursor-pointer hover:border-white">
+      <div
+        className="border-2 border-[#00ADB5] rounded-lg border-dotted min-h-[150px] hover:cursor-pointer hover:border-white"
+        onClick={() =>
+          window.open("https://todolist-webapp-u0vv.onrender.com/", "_blank")
+        }
+      >
         <div className="flex justify-end">
           <div className="w-[50%] p-2 text-center">
             <h1 className="">Tech Stack</h1>
@@ -58,7 +63,8 @@ export default function Projects() {
             <li>
               <ProjectFolder
                 title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
+                stack={["MongoDb", "Express", "ReactJs", "NodeJs", "Bootstrap"]}
+                link="https://todolist-webapp-u0vv.onrender.com/"
               />
             </li>
           </ul>
