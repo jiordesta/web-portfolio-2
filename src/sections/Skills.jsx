@@ -81,7 +81,6 @@ export default function Skills() {
                   <div className="underline">Adaptability</div>
                   <div className="underline">Critical Thinking</div>
                   <div className="underline">Analytical Reasoning</div>
-                  <div className="underline">Critical Thinking</div>
                   <div className="underline">Leadership</div>
                 </div>
               </div>

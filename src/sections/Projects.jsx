@@ -61,48 +61,6 @@ export default function Projects() {
                 stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
               />
             </li>
-            <li>
-              <ProjectFolder
-                title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
-              />
-            </li>
-            <li>
-              <ProjectFolder
-                title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
-              />
-            </li>
-            <li>
-              <ProjectFolder
-                title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
-              />
-            </li>
-            <li>
-              <ProjectFolder
-                title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
-              />
-            </li>
-            <li>
-              <ProjectFolder
-                title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
-              />
-            </li>
-            <li>
-              <ProjectFolder
-                title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
-              />
-            </li>
-            <li>
-              <ProjectFolder
-                title="todo-list-web-app"
-                stack={["MongoDb", "Express", "ReactJs", "NodeJs"]}
-              />
-            </li>
           </ul>
         </div>
       </div>

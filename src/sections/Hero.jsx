@@ -24,7 +24,15 @@ export default function Hero() {
             eager to contribute my skills and enthusiasm to a dynamic and
             growth-oriented organization.
           </p>
-          <span className="bg-[#222831] drop-shadow-lg p-2 rounded-lg mt-4 cursor-pointer hover:bg-[#393E46]">
+          <span
+            className="bg-[#222831] drop-shadow-lg p-2 rounded-lg mt-4 cursor-pointer hover:bg-[#393E46]"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1ufT_8wVe2JC6fdzEfMRnNe5ODvMAFt0S/view?usp=sharing",
+                "_blank"
+              )
+            }
+          >
             download resume
           </span>
         </div>
