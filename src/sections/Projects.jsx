@@ -5,9 +5,7 @@ export default function Projects() {
     return (
       <div
         className="border-2 border-[#00ADB5] rounded-lg border-dotted min-h-[150px] hover:cursor-pointer hover:border-white"
-        onClick={() =>
-          window.open("https://todolist-webapp-u0vv.onrender.com/", "_blank")
-        }
+        onClick={() => window.open(link, "_blank")}
       >
         <div className="flex justify-end">
           <div className="w-[50%] p-2 text-center">
